@@ -29,3 +29,95 @@
     <script src="script.js"></script>
 </body>
 </html>
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Paranaguá: Agro Forte e Futuro Sustentável</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <header>
+        <div class="container">
+            <div class="logo">Paranaguá <span>Sustentável</span></div>
+            <nav>
+                <ul>
+                    <li><a href="#inicio">Início</a></li>
+                    <li><a href="#agro">Agro Forte</a></li>
+                    <li><a href="#logistica">Logística</a></li>
+                    <li><a href="#meio-ambiente">Meio Ambiente</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section id="inicio" class="hero">
+        <div class="hero-content">
+            <h1>Paranaguá: O Elo entre o Agro Forte e o Futuro Sustentável</h1>
+            <p>Descubra como um dos maiores portos da América Latina une a força da produção no campo com a preservação do meio ambiente.</p>
+            <a href="#agro" class="btn">Explorar Conteúdo</a>
+        </div>
+    </section>
+
+    <main class="container">
+        
+        <section id="agro" class="card-section">
+            <div class="card-image bg-agro"></div>
+            <div class="card-text">
+                <h2>1. O Coração do Agro Forte</h2>
+                <p>Para o agronegócio ser forte, a produção do campo precisa chegar ao mundo com eficiência. O Porto de Paranaguá é o principal escoadouro de safra do Paraná e um dos maiores do Brasil.</p>
+                <button class="btn-interativo" onclick="mostrarDetalhe('agro')">Ver impacto no Agrinho</button>
+                <div id="detalhe-agro" class="detalhe-oculto">
+                    <p>💡 <strong>Conexão Agrinho:</strong> Este cenário ilustra perfeitamente o tema do concurso: "Agro forte, futuro sustentável", provando que a força econômica e o cuidado com a Terra caminham juntos.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="logistica" class="card-section reverse">
+            <div class="card-image bg-logistica"></div>
+            <div class="card-text">
+                <h2>2. Logística Inteligente para o Futuro</h2>
+                <p>Sustentabilidade também é sobre como transportamos. Em Paranaguá, o uso massivo de ferrovias reduz drasticamente a emissão de gases poluentes quando comparado ao transporte rodoviário tradicional.</p>
+                <button class="btn-interativo" onclick="mostrarDetalhe('logistica')">Ver dados de eficiência</button>
+                <div id="detalhe-logistica" class="detalhe-oculto">
+                    <p>🌱 <strong>Eficiência Verde:</strong> Menos tempo de espera para navios e caminhões significa menos queima de combustível fóssil e uma pegada de carbono muito menor por tonelada exportada.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="meio-ambiente" class="card-section">
+            <div class="card-image bg-ambiente"></div>
+            <div class="card-text">
+                <h2>3. Equilíbrio e Biodiversidade</h2>
+                <p>Cercado pela rica Mata Atlântica, o complexo portuário adota regras rígidas de monitoramento ambiental, proteção das baías, cuidado com a fauna local e suporte às comunidades nativas.</p>
+                <button class="btn-interativo" onclick="mostrarDetalhe('ambiente')">Ver ações ambientais</button>
+                <div id="detalhe-ambiente" class="detalhe-oculto">
+                    <p>🌊 <strong>Ações Práticas:</strong> Programas de monitoramento da qualidade da água, recuperação de áreas degradadas e incentivo a sistemas agroflorestais para pequenos produtores locais.</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <section class="quiz-section">
+        <div class="container">
+            <h3>Teste seu conhecimento!</h3>
+            <p>O que equilibra o Agro Forte e o Futuro Sustentável em Paranaguá?</p>
+            <div class="quiz-options">
+                <button onclick="verificarResposta(false)">Apenas a alta produção</button>
+                <button onclick="verificarResposta(true)">Logística limpa, tecnologia e preservação</button>
+                <button onclick="verificarResposta(false)">Apenas o transporte por caminhões</button>
+            </div>
+            <p id="quiz-resultado"></p>
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2026 - Projeto Escolar / Concurso Agrinho. Desenvolvido com foco em Sustentabilidade.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
